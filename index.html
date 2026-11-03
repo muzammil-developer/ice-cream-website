@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frost &amp; Fold — Artisan Ice Cream, Churned Fresh Daily</title>
+<meta name="description" content="Small-batch ice cream and gelato, folded fresh every morning in Brooklyn. 32 rotating flavors, dairy-free options, waffle cones pressed in-house.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237A2D3C'/%3E%3Cstop offset='1' stop-color='%23C2964A'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='20' cy='20' r='19' fill='url(%23g)'/%3E%3Cpath d='M14 13 H 27 M 14 13 V 28 M 14 20.5 H 23' stroke='%23FBF8F2' stroke-width='2.6' stroke-linecap='round'/%3E%3Ccircle cx='29' cy='13' r='2.6' fill='%23FBF8F2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+<header class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo" aria-label="Frost & Fold home">
+      <svg class="nav__logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7A2D3C"/><stop offset="1" stop-color="#C2964A"/></linearGradient></defs>
+        <circle cx="20" cy="20" r="19" fill="url(#lg)"/>
+        <path d="M14 13 H 27 M 14 13 V 28 M 14 20.5 H 23" stroke="#FBF8F2" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+        <circle cx="29" cy="13" r="2.6" fill="#FBF8F2"/>
+      </svg>
+      <span class="nav__logo-text">
+        <span class="nav__logo-name">Frost &amp; Fold</span>
+        <span class="nav__logo-tag">Artisan Creamery</span>
+      </span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="flavors.html" data-nav="flavors">Flavors</a>
+      <a href="story.html" data-nav="story">Story</a>
+      <a href="gallery.html" data-nav="gallery">Gallery</a>
+      <a href="reviews.html" data-nav="reviews">Reviews</a>
+      <a href="visit.html" data-nav="visit">Visit</a>
+    </nav>
+    <div class="nav__actions">
+      <a href="visit.html" class="btn btn--primary btn--sm">Find a Shop</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <section class="page" id="home">
+
+    <div class="hero">
+      <div class="hero__content">
+        <span class="eyebrow">Est. 2014 · Small Batch</span>
+        <h1>Ice cream, <em>quietly</em> perfected.</h1>
+        <p class="lead">Churned fresh every morning in our Brooklyn kitchen. Thirty-two rotating flavors, dairy-free options, and waffle cones pressed to order.</p>
+        <div class="hero__cta">
+          <a href="flavors.html" class="btn btn--primary btn--lg">
+            Explore the Menu
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="visit.html" class="btn btn--outline btn--lg">Visit a Shop</a>
+        </div>
+        <dl class="hero__meta">
+          <div><dt>Open Daily</dt><dd>11 AM – 10 PM</dd></div>
+          <div><dt>Flavors</dt><dd>32 on rotation</dd></div>
+          <div><dt>Location</dt><dd>Brooklyn, NY</dd></div>
+        </dl>
+      </div>
+      <div class="hero__3d" id="hero3d">
+        <div class="hero__badge hero__badge--1"><span class="hero__badge__dot"></span>Handcrafted daily</div>
+        <div class="hero__badge hero__badge--2"><span class="hero__badge__dot"></span>Dairy-free options</div>
+        <div class="hero__badge hero__badge--3"><span class="hero__badge__dot"></span>4.9 ★ · 2,847 reviews</div>
+      </div>
+    </div>
+
+    <div class="trust" aria-label="Our promises">
+      <div class="trust__track" id="trustTrack">
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4.9 4.9l14.2 14.2M2 12h20M4.9 19.1l14.2-14.2"/></svg>Organic dairy</div>
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No artificial anything</div>
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg>Vegan &amp; dairy-free</div>
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Churned fresh daily</div>
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c1.6 3.2 3.5 5.1 3.5 8a3.5 3.5 0 1 1-7 0C8.5 7.1 10.4 5.2 12 2z"/><path d="M6 22c0-4 2.7-7 6-7s6 3 6 7"/></svg>Locally sourced</div>
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>Small-batch always</div>
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h16M6 14l1.5-6A3 3 0 0 1 10.4 6h3.2a3 3 0 0 1 2.9 2L18 14M8 22v-4M16 22v-4"/></svg>Waffle cones pressed to order</div>
+        <div class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Family-owned since 2014</div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow eyebrow--center">This Week's Rotation</span>
+          <h2>Flavors worth the walk.</h2>
+          <p class="lead">Our menu changes with the season — these are the ones our regulars ask for by name.</p>
+        </div>
+        <div class="card-grid">
+          <article class="flavor-card reveal tilt">
+            <div class="flavor-card__img">
+              <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=800&q=80" alt="Strawberry basil sorbet" loading="lazy">
+              <span class="flavor-card__badge flavor-card__badge--hot">Best Seller</span>
+            </div>
+            <div class="flavor-card__body">
+              <div class="flavor-card__row"><h3>Strawberry Basil</h3><span class="flavor-card__price">$5.50</span></div>
+              <p class="flavor-card__desc">Sun-ripened strawberries, fresh basil, a whisper of lemon zest. Bright and unmistakably summer.</p>
+              <div class="flavor-card__foot">
+                <div class="flavor-card__tags"><span class="tag tag--sage">Vegan</span><span class="tag">Sorbet</span></div>
+                <button class="add-btn" aria-label="Order Strawberry Basil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></button>
+              </div>
+            </div>
+          </article>
+          <article class="flavor-card reveal tilt" data-d="1">
+            <div class="flavor-card__img">
+              <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80" alt="Pistachio gelato" loading="lazy">
+              <span class="flavor-card__badge flavor-card__badge--gold">Signature</span>
+            </div>
+            <div class="flavor-card__body">
+              <div class="flavor-card__row"><h3>Pistachio Gelato</h3><span class="flavor-card__price">$6.50</span></div>
+              <p class="flavor-card__desc">Bronte pistachios, slow-toasted and stone-ground. Dense, nutty, faintly sweet.</p>
+              <div class="flavor-card__foot">
+                <div class="flavor-card__tags"><span class="tag">Gelato</span><span class="tag tag--gold">Organic</span></div>
+                <button class="add-btn" aria-label="Order Pistachio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></button>
+              </div>
+            </div>
+          </article>
+          <article class="flavor-card reveal tilt" data-d="2">
+            <div class="flavor-card__img">
+              <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=800&q=80" alt="Salted caramel" loading="lazy">
+              <span class="flavor-card__badge flavor-card__badge--new">New</span>
+            </div>
+            <div class="flavor-card__body">
+              <div class="flavor-card__row"><h3>Salted Caramel</h3><span class="flavor-card__price">$6.00</span></div>
+              <p class="flavor-card__desc">Burnt sugar, cultured cream, Maldon flake. Deep, buttery, impossible to stop at one scoop.</p>
+              <div class="flavor-card__foot">
+                <div class="flavor-card__tags"><span class="tag">Classic</span><span class="tag tag--accent">Fan Fave</span></div>
+                <button class="add-btn" aria-label="Order Salted Caramel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div style="text-align:center;margin-top:52px" class="reveal">
+          <a href="flavors.html" class="btn btn--outline">
+            See all 32 flavors
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="split">
+          <div class="story-img reveal">
+            <img src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?auto=format&fit=crop&w=900&q=80" alt="Fresh churned ice cream" loading="lazy">
+          </div>
+          <div class="reveal" data-d="1">
+            <span class="eyebrow">Our Story</span>
+            <h2>Started with one machine and a stubborn idea.</h2>
+            <p class="lead" style="margin-top:16px">In 2014 we opened a 12-seat shop in Brooklyn with one batch freezer and a chalkboard menu. The idea was simple: use the best ingredients we could find, and never make more than we could sell that day.</p>
+            <p class="lead" style="margin-top:16px">Eleven years later, we still churn every flavor the morning it's sold. Nothing sits. Nothing is frozen twice.</p>
+            <div class="story-facts">
+              <div class="story-fact"><div class="story-fact__num"><span data-count="11">0</span></div><div class="story-fact__label">Years churning</div></div>
+              <div class="story-fact"><div class="story-fact__num"><span data-count="32">0</span></div><div class="story-fact__label">Rotating flavors</div></div>
+              <div class="story-fact"><div class="story-fact__num"><span data-count="3">0</span></div><div class="story-fact__label">Brooklyn shops</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow eyebrow--center">Kind Words</span>
+          <h2>From people who've tasted it.</h2>
+          <p class="lead">4.9 out of 5 from 2,847 reviews across Google and Yelp.</p>
+        </div>
+        <div class="review-grid">
+          <div class="review-card reveal">
+            <div class="review-card__stars">★★★★★</div>
+            <blockquote class="review-card__quote">"The pistachio gelato is genuinely the best I've had outside of Italy. Dense, nutty, and just sweet enough."</blockquote>
+            <div class="review-card__author">
+              <div class="review-card__avatar"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt=""></div>
+              <div><div class="review-card__name">Maya Chen</div><div class="review-card__meta">Regular since 2019</div></div>
+            </div>
+          </div>
+          <div class="review-card reveal" data-d="1">
+            <div class="review-card__stars">★★★★★</div>
+            <blockquote class="review-card__quote">"Brought the kids on a Saturday and we all left grinning. The build-your-own sundae bar is a brilliant idea."</blockquote>
+            <div class="review-card__author">
+              <div class="review-card__avatar"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt=""></div>
+              <div><div class="review-card__name">James Okonkwo</div><div class="review-card__meta">Family visit</div></div>
+            </div>
+          </div>
+          <div class="review-card reveal" data-d="2">
+            <div class="review-card__stars">★★★★★</div>
+            <blockquote class="review-card__quote">"Finally a place that takes dairy-free seriously. The coconut chocolate doesn't taste like a compromise."</blockquote>
+            <div class="review-card__author">
+              <div class="review-card__avatar"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&q=80" alt=""></div>
+              <div><div class="review-card__name">Sofia Reyes</div><div class="review-card__meta">Dairy-free regular</div></div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:52px" class="reveal">
+          <a href="reviews.html" class="btn btn--outline">
+            Read all reviews
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta__inner">
+        <h2>Come for a scoop. Stay for another.</h2>
+        <p>Three shops across Brooklyn, open daily from 11 AM. Waffle cones pressed to order.</p>
+        <div class="cta__buttons">
+          <a href="visit.html" class="btn btn--gold btn--lg">Find a Shop</a>
+          <a href="flavors.html" class="btn btn--light btn--lg">Browse Flavors</a>
+        </div>
+      </div>
+    </section>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <svg class="nav__logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C2964A"/><stop offset="1" stop-color="#7A2D3C"/></linearGradient></defs>
+            <circle cx="20" cy="20" r="19" fill="url(#lg2)"/>
+            <path d="M14 13 H 27 M 14 13 V 28 M 14 20.5 H 23" stroke="#1A1512" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+            <circle cx="29" cy="13" r="2.6" fill="#1A1512"/>
+          </svg>
+          <span class="nav__logo-text"><span class="nav__logo-name">Frost &amp; Fold</span><span class="nav__logo-tag">Artisan Creamery</span></span>
+        </div>
+        <p class="footer__desc">Small-batch ice cream and gelato, churned fresh every morning in Brooklyn since 2014.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="flavors.html">Flavors</a></li>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Visit</h5>
+        <ul>
+          <li><a href="visit.html">Williamsburg</a></li>
+          <li><a href="visit.html">Park Slope</a></li>
+          <li><a href="visit.html">Greenpoint</a></li>
+          <li><a href="visit.html">Catering</a></li>
+          <li><a href="visit.html">Wholesale</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Newsletter</h5>
+        <p style="font-size:13px;color:rgba(251,248,242,0.55);margin-bottom:14px">New flavors, shop news, and the occasional free scoop. No spam.</p>
+        <form class="footer__newsletter" id="newsletterForm">
+          <input type="email" placeholder="Your email" aria-label="Email address" required>
+          <button type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+        <p style="font-size:13px;color:rgba(251,248,242,0.55);margin-top:16px">hello@frostandfold.com<br>(718) 555-0142</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> Frost &amp; Fold. All rights reserved.</span>
+      <span>Privacy · Terms · Accessibility</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer" aria-modal="true">
+  <button class="lightbox__close" id="lbClose" aria-label="Close">&times;</button>
+  <img src="" alt="" id="lbImg">
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+  <span id="toastMsg">Done</span>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+<script type="module" src="index.js"></script>
+</body>
+</html>
