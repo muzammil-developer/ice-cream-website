@@ -55,7 +55,7 @@ Follow these simple steps to run the project on your computer.
 
 Step 1: Clone the Repository
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone ice-cream-website
 
 Step 2: Open the Project Folder
 
